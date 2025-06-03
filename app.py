@@ -2,6 +2,7 @@ import dash
 from dash import dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
+import os
 
 # Dados detalhados para filtros e somatórios
 detailed_data = [
@@ -124,45 +125,30 @@ def update_map(locais_selecionados, tipos_selecionados, portes_selecionados):
         color='Local',
         custom_data=hover_cols,
         scope='south america',
-        projection='natural earth'
-    )
-
-    # Monta hovertemplate para mostrar só as colunas desejadas, sem lat/lon
-    hover_template_lines = []
-    for i, col in enumerate(hover_cols):
-        hover_template_lines.append(f"{col}: %{{customdata[{i}]}}")
-    hovertemplate = "<br>".join(hover_template_lines) + "<extra></extra>"
-
-    fig.update_traces(hovertemplate=hovertemplate)
-
-    if not grouped.empty:
-        sizeref_value = 2.*max(grouped['Quantidade'])/(40.**2)
-        fig.update_traces(marker=dict(sizemode='area', sizeref=sizeref_value, sizemin=8))
-
-    fig.update_geos(
-        showcountries=True,
-        countrycolor="green",
-        showsubunits=True,
-        subunitcolor="green",
-        lataxis_range=[-70, 20],
-        lonaxis_range=[-110, -20],
-        visible=True
+        projection='natural earth',
+        size_max=50
     )
 
     fig.update_layout(
-        legend_title_text='Local',
-        legend=dict(
-            yanchor="top",
-            y=0.85,
-            xanchor="right",
-            x=0.99
-        ),
-        margin={"r":0, "t":0, "l":0, "b":0}
+        title='Quantidade Total por Local',
+        geo=dict(
+            showland=True,
+            landcolor="LightGreen",
+            showcountries=True,
+            countrycolor="Black",
+            lataxis_range=[-40, -5],
+            lonaxis_range=[-80, -30],
+        )
+    )
+
+    fig.update_traces(
+        hovertemplate='<br>'.join([f'{col}: %{{customdata[{i}]}}' for i, col in enumerate(hover_cols)]) +
+                      '<extra></extra>'
     )
 
     return fig
 
-from waitress import serve
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 10000))
+    app.run(host='0.0.0.0', port=port, debug=True)
+
