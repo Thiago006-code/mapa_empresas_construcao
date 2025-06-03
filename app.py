@@ -11,36 +11,33 @@ detailed_data = [
     {'Local': 'Brasil', 'Tipo': 'Construção Civil', 'Porte': 'EPP', 'Quantidade': 86184, 'Latitude': -14, 'Longitude': -52},
     {'Local': 'Brasil', 'Tipo': 'Construção Civil', 'Porte': 'Demais', 'Quantidade': 59872, 'Latitude': -14, 'Longitude': -52},
     {'Local': 'Brasil', 'Tipo': 'Construção de Edifícios', 'Porte': 'MEI', 'Quantidade': 34, 'Latitude': -14, 'Longitude': -52},
-    {'Local': 'Brasil', 'Tipo': 'Construção de Edifícios', 'Porte': 'ME', 'Quantidade': 200000, 'Latitude': -14, 'Longitude': -52},
-    {'Local': 'Brasil', 'Tipo': 'Construção de Edifícios', 'Porte': 'EPP', 'Quantidade': 40000, 'Latitude': -14, 'Longitude': -52},
-    {'Local': 'Brasil', 'Tipo': 'Construção de Edifícios', 'Porte': 'Demais', 'Quantidade': 30000, 'Latitude': -14, 'Longitude': -52},
+    {'Local': 'Brasil', 'Tipo': 'Construção de Edifícios', 'Porte': 'ME', 'Quantidade': 112507, 'Latitude': -14, 'Longitude': -52},
+    {'Local': 'Brasil', 'Tipo': 'Construção de Edifícios', 'Porte': 'EPP', 'Quantidade': 41038, 'Latitude': -14, 'Longitude': -52},
+    {'Local': 'Brasil', 'Tipo': 'Construção de Edifícios', 'Porte': 'Demais', 'Quantidade': 32296, 'Latitude': -14, 'Longitude': -52},
 
     {'Local': 'Santa Catarina', 'Tipo': 'Construção Civil', 'Porte': 'MEI', 'Quantidade': 76807, 'Latitude': -27, 'Longitude': -50},
     {'Local': 'Santa Catarina', 'Tipo': 'Construção Civil', 'Porte': 'ME', 'Quantidade': 32637, 'Latitude': -27, 'Longitude': -50},
     {'Local': 'Santa Catarina', 'Tipo': 'Construção Civil', 'Porte': 'EPP', 'Quantidade': 4602, 'Latitude': -27, 'Longitude': -50},
     {'Local': 'Santa Catarina', 'Tipo': 'Construção Civil', 'Porte': 'Demais', 'Quantidade': 4351, 'Latitude': -27, 'Longitude': -50},
-    {'Local': 'Santa Catarina', 'Tipo': 'Construção de Edifícios', 'Porte': 'MEI', 'Quantidade': 30000, 'Latitude': -27, 'Longitude': -50},
-    {'Local': 'Santa Catarina', 'Tipo': 'Construção de Edifícios', 'Porte': 'ME', 'Quantidade': 15000, 'Latitude': -27, 'Longitude': -50},
-    {'Local': 'Santa Catarina', 'Tipo': 'Construção de Edifícios', 'Porte': 'EPP', 'Quantidade': 3000, 'Latitude': -27, 'Longitude': -50},
-    {'Local': 'Santa Catarina', 'Tipo': 'Construção de Edifícios', 'Porte': 'Demais', 'Quantidade': 2000, 'Latitude': -27, 'Longitude': -50},
+    {'Local': 'Santa Catarina', 'Tipo': 'Construção de Edifícios', 'Porte': 'ME', 'Quantidade': 6991, 'Latitude': -27, 'Longitude': -50},
+    {'Local': 'Santa Catarina', 'Tipo': 'Construção de Edifícios', 'Porte': 'EPP', 'Quantidade': 2266, 'Latitude': -27, 'Longitude': -50},
+    {'Local': 'Santa Catarina', 'Tipo': 'Construção de Edifícios', 'Porte': 'Demais', 'Quantidade': 3106, 'Latitude': -27, 'Longitude': -50},
 
     {'Local': 'Florianópolis', 'Tipo': 'Construção Civil', 'Porte': 'MEI', 'Quantidade': 5092, 'Latitude': -27.6, 'Longitude': -48.6},
     {'Local': 'Florianópolis', 'Tipo': 'Construção Civil', 'Porte': 'ME', 'Quantidade': 2143, 'Latitude': -27.6, 'Longitude': -48.6},
-    {'Local': 'Florianópolis', 'Tipo': 'Construção Civil', 'Porte': 'EPP', 'Quantidade': 711, 'Latitude': -27.6, 'Longitude': -48.6},
-    {'Local': 'Florianópolis', 'Tipo': 'Construção Civil', 'Porte': 'Demais', 'Quantidade': 318, 'Latitude': -27.6, 'Longitude': -48.6},
-    {'Local': 'Florianópolis', 'Tipo': 'Construção de Edifícios', 'Porte': 'MEI', 'Quantidade': 2000, 'Latitude': -27.6, 'Longitude': -48.6},
-    {'Local': 'Florianópolis', 'Tipo': 'Construção de Edifícios', 'Porte': 'ME', 'Quantidade': 1000, 'Latitude': -27.6, 'Longitude': -48.6},
-    {'Local': 'Florianópolis', 'Tipo': 'Construção de Edifícios', 'Porte': 'EPP', 'Quantidade': 400, 'Latitude': -27.6, 'Longitude': -48.6},
-    {'Local': 'Florianópolis', 'Tipo': 'Construção de Edifícios', 'Porte': 'Demais', 'Quantidade': 200, 'Latitude': -27.6, 'Longitude': -48.6},
+    {'Local': 'Florianópolis', 'Tipo': 'Construção Civil', 'Porte': 'EPP', 'Quantidade': 318, 'Latitude': -27.6, 'Longitude': -48.6},
+    {'Local': 'Florianópolis', 'Tipo': 'Construção Civil', 'Porte': 'Demais', 'Quantidade': 711, 'Latitude': -27.6, 'Longitude': -48.6},
+    {'Local': 'Florianópolis', 'Tipo': 'Construção de Edifícios', 'Porte': 'ME', 'Quantidade': 557, 'Latitude': -27.6, 'Longitude': -48.6},
+    {'Local': 'Florianópolis', 'Tipo': 'Construção de Edifícios', 'Porte': 'EPP', 'Quantidade': 175, 'Latitude': -27.6, 'Longitude': -48.6},
+    {'Local': 'Florianópolis', 'Tipo': 'Construção de Edifícios', 'Porte': 'Demais', 'Quantidade': 547, 'Latitude': -27.6, 'Longitude': -48.6},
 
-    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção Civil', 'Porte': 'MEI', 'Quantidade': 3000, 'Latitude': -26.9936, 'Longitude': -48.6352},
-    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção Civil', 'Porte': 'ME', 'Quantidade': 1200, 'Latitude': -26.9936, 'Longitude': -48.6352},
-    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção Civil', 'Porte': 'EPP', 'Quantidade': 400, 'Latitude': -26.9936, 'Longitude': -48.6352},
-    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção Civil', 'Porte': 'Demais', 'Quantidade': 200, 'Latitude': -26.9936, 'Longitude': -48.6352},
-    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção de Edifícios', 'Porte': 'MEI', 'Quantidade': 1500, 'Latitude': -26.9936, 'Longitude': -48.6352},
-    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção de Edifícios', 'Porte': 'ME', 'Quantidade': 700, 'Latitude': -26.9936, 'Longitude': -48.6352},
-    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção de Edifícios', 'Porte': 'EPP', 'Quantidade': 200, 'Latitude': -26.9936, 'Longitude': -48.6352},
-    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção de Edifícios', 'Porte': 'Demais', 'Quantidade': 100, 'Latitude': -26.9936, 'Longitude': -48.6352},
+    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção Civil', 'Porte': 'MEI', 'Quantidade': 1653, 'Latitude': -26.9936, 'Longitude': -48.6352},
+    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção Civil', 'Porte': 'ME', 'Quantidade': 1130, 'Latitude': -26.9936, 'Longitude': -48.6352},
+    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção Civil', 'Porte': 'EPP', 'Quantidade': 230, 'Latitude': -26.9936, 'Longitude': -48.6352},
+    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção Civil', 'Porte': 'Demais', 'Quantidade': 361, 'Latitude': -26.9936, 'Longitude': -48.6352},
+    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção de Edifícios', 'Porte': 'ME', 'Quantidade': 303, 'Latitude': -26.9936, 'Longitude': -48.6352},
+    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção de Edifícios', 'Porte': 'EPP', 'Quantidade': 146, 'Latitude': -26.9936, 'Longitude': -48.6352},
+    {'Local': 'Balneário Camboriú', 'Tipo': 'Construção de Edifícios', 'Porte': 'Demais', 'Quantidade': 331, 'Latitude': -26.9936, 'Longitude': -48.6352},
 ]
 
 df_detalhado = pd.DataFrame(detailed_data)
@@ -151,5 +148,7 @@ def update_map(locais_selecionados, tipos_selecionados, portes_selecionados):
 import os
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8050))  # Pega a porta do ambiente ou usa 8050 como default local
+    import os
+    port = int(os.environ.get('PORT', 8050))
     app.run(host='0.0.0.0', port=port, debug=True)
+
